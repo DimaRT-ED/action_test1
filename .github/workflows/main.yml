@@ -22,7 +22,7 @@ jobs:
         echo "Hello Message1"
         echo "Hello Message2"
         echo "Appication name: ${{ env.MY_APPLICATION_NAME }}"
-        echo " -- Counter = ${{ env.MY_APPLICATION_NAME }}"
+        echo " -- Counter = ${{ env.MY_COUNT  }}"
     
     - name: List current folder
       run : ls -la
