@@ -1,4 +1,4 @@
-v.name: My-GitHubActions-Basics
+name: My-GitHubActions-Basics
 env:
   MY_APPLICATION_NAME    : "My_Flask"
   MY_DEPLOY_PACKAGE_NAME : "flask-deploy-ver-${{ github.sha }}"
