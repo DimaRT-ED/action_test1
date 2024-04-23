@@ -36,7 +36,7 @@ jobs:
     - name: add counter
       run : $MY_COUNT = 11
     - name: print counter
-      run : echo " counter = ${{ MY_COUNT }}"
+      run : echo " counter = $MY_COUNT"
   my_second_job:
     runs-on: ubuntu-latest
     needs: [my_first_job]
