@@ -64,6 +64,6 @@ jobs:
       run : aws --version
 
     - name: print counter
-      run : echo " counter = ${{ MY_COUNT }}"
+      run : echo " counter = $MY_COUNT"
 
       
