@@ -34,7 +34,10 @@ jobs:
       run : ls -la
 
     - name: add counter
-      run : export MY_COUNT="1111"
+      run: |
+        echo "Updating MY_COUNT to 1111"
+        export MY_COUNT="1111"
+
     - name: print counter
       run : echo " -- Counter = ${{ env.MY_COUNT  }}"
     - name: print counter
