@@ -36,7 +36,7 @@ jobs:
     - name: add counter
       run: |
         echo "Updating MY_COUNT to 1111"
-        export env.MY_COUNT="1111"
+        export ${{ env.MY_COUNT }}="1111"
 
     - name: print counter
       run : echo " -- Counter = ${{ env.MY_COUNT  }}"
